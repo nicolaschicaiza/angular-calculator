@@ -11,7 +11,12 @@
       <input type="number" class="form-control" placeholder="Escribe Operando B" [(ngModel)]="operandorB"
         name="operandoB" />
     </div>
-    <button type="submit" class="btn btn-primary" (click)="sumar()">Sumar</button>
+    <div class="d-flex flex-row">
+      <button type="submit" class="btn btn-primary me-3" (click)="sumar()">Sumar</button>
+      <button type="submit" class="btn btn-primary me-3" (click)="restar()">Restar</button>
+      <button type="submit" class="btn btn-primary me-3" (click)="multiplicar()">Multiplicar</button>
+      <button type="submit" class="btn btn-primary me-3" (click)="dividir()">Dividir</button>
+    </div>
   </form>
   <p>Resultado: {{ resultado }}</p>
 </div>

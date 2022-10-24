@@ -12,7 +12,18 @@ export class AppComponent {
   operandorB: number = 0;
 
   sumar(): void {
-    console.log("operación de suma")
     this.resultado = this.operandorA + this.operandorB;
+  }
+
+  restar(): void {
+    this.resultado = this.operandorA - this.operandorB;
+  }
+
+  multiplicar(): void {
+    this.resultado = this.operandorA * this.operandorB;
+  }
+
+  dividir(): void {
+    this.resultado = this.operandorA / this.operandorB;
   }
 }
