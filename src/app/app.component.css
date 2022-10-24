@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 2%;
+}
+
+button {
+  margin-bottom: 1%;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-weight: bold;
+}
+
+.form-group {
+  margin-bottom: 1%;
+}
